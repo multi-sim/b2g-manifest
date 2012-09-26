@@ -11,7 +11,7 @@
           fetch="git://codeaurora.org/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
-  <default revision="ics_chocolate"
+  <default revision="ics_chocolate_rb4.2"
            remote="caf"
            sync-j="4" />
 
@@ -84,7 +84,7 @@
   <project path="external/hostap" name="platform/external/hostap" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project name="platform/frameworks/base" path="frameworks/base" revision="49aed1902b259173c8d3ca12727031c3fc464a14"/>
+  <project name="platform/frameworks/base" path="frameworks/base" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />

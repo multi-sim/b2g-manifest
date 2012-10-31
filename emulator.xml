@@ -8,7 +8,9 @@
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
+          fetch="git://github.com/mozilla/" />
+  <remote name="amtb"
+          fetch="git://github.com/amtb/" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="linaro"
            sync-j="4" />
@@ -18,11 +20,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="b2g" revision="master" />
-  <project path="gecko" name="releases-mozilla-central" remote="mozilla" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
+  <project path="gaia" name="gaia" remote="amtb" revision="master" />
+  <project path="gecko" name="releases-mozilla-central" remote="amtb" revision="master" />
+  <project path="gonk-misc" name="gonk-misc" remote="amtb" revision="master" />
+  <project path="rilproxy" name="rilproxy" remote="amtb" revision="multi_rild" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="amtb" revision="multi_rild"/>
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
 

@@ -25,7 +25,7 @@
   <project path="gonk-misc" name="gonk-misc" remote="multi-sim" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="multi-sim" revision="multi_rild" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="multi-sim" revision="multi_rild"/>
-  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
+  <project path="external/qemu" name="platform_external_qemu" remote="multi-sim" revision="master"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->

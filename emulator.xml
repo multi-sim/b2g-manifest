@@ -22,7 +22,7 @@
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="multi-sim" revision="master" />
   <project path="gecko" name="releases-mozilla-central" remote="multi-sim" revision="multi_rild" />
-  <project path="gonk-misc" name="gonk-misc" remote="multi-sim" revision="master" />
+  <project path="gonk-misc" name="gonk-misc" remote="multi-sim" revision="multi_rild" />
   <project path="rilproxy" name="rilproxy" remote="multi-sim" revision="multi_rild" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="multi-sim" revision="multi_rild"/>
   <project path="system/core" name="platform_system_core" remote="multi-sim" revision="multi_rild"/>
